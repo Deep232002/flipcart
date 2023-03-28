@@ -1,0 +1,97 @@
+@media (max-width:1002px) {
+    /* .santosh{
+        margin: 0 16px;
+    } */
+    .san{
+        margin: 10px 10px;
+    }
+}
+    @media (max-width:826px) {
+        .toy .san p, .santosh p {
+            font-size: 12px;
+          }
+         
+    }
+
+@media (max-width:902px) {
+   
+    .container{
+        /* background-color: red; */
+        width: 98vw;
+    }
+    .slidder img{
+        height: 34vh;
+        margin-top: 15px;
+    }
+    .card{
+        height: 279px;
+        width: 92vw;
+    }
+    .toy img,.santosh img{
+        height: 70px;
+    }
+    .toy .san h3,.deep .santosh h3{
+        font-size: 11px;
+    }
+    .santosh{
+        margin: 26px 3px;
+    }
+
+}
+@media (max-width:661px) {
+    
+    nav ul li{
+        margin: 16px 4px;
+    }
+    .slidder img{
+        height: 26vh;
+    }
+    .toy img,.santosh img{
+        height: 56px;
+    }
+    .toy .san p, .santosh p {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+      }
+      h3{
+        font-size: 15px;
+      }
+      .santosh:hover {
+        transform: scale(1.1);}
+        
+        .san:hover {
+            transform: scale(1.1);
+          }
+ }
+ @media (max-width:555px) {
+    
+    header{
+        height: 184px;
+    }
+    .container{
+        height: 161px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav ul li{
+        margin: 0 16px;
+    }
+    .search{
+        margin-top: 31px;
+    }
+    .logo img{
+        height: 30px;
+        margin-top: 12px;
+    }
+    .slidder img{
+        height: 20vh;
+    }
+ 
+ }
+ @media (Max-width:374px) {
+    .slidder img{
+        height: 14vh;
+    }
+ }

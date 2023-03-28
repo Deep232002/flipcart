@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+   --deep: #2874f0;
+}
+header{
+    position: sticky;
+    z-index: 4;
+    top: 0;
+    height: 58px;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+main{
+    /* z-index: 1; */
+}
+.dabba{
+    background-color: beige;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo p sup{
+        color: white;
+        font-size: 19px;
+        font-weight: 900;
+}
+.logo img{
+    height: 23px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+        height: 34px;
+        width: 30vw;
+        padding: 0 18px;
+}
+.icon{
+    position: relative;
+    right: 32px;
+    top: 3px;
+}
+.search .btn{
+    background-color: white;
+    color:  #2874f0;
+    border-radius: 3px;
+    padding: 4px 15px;
+    margin-left: 6px;
+   cursor: pointer;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(165, 199, 249);
+}
+nav ul li a:hover{
+     color: white;
+     font-weight: 500;
+}
+.dabba{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.box{
+    display: flex;
+    background-color: white;
+   height: 134px;
+   overflow: hidden;
+}
+.row1{
+    height: 164px;
+    width: 122px;
+    margin: auto;
+    color: black;
+    transform: 0.5s ;
+}
+ .row1:hover{
+    transform: scale(1.1);
+
+}
+
+.row1 img{
+    height: 104px;
+
+}
+.row1 p{
+    display: flex;
+    justify-content: center;
+}
+.slidder{
+  overflow: hidden;
+  
+margin-top: 15px;
+}
+.slidder .slid{
+
+    position: relative;
+    width: 300%;
+    margin: 0;
+    left: 0;
+    
+    animation: 8s slidder infinite;
+}
+.slidder img{
+    height: 40vh;
+    float: left;
+    width: 33.3%;
+}
+@keyframes slidder {
+    0%{
+        left: 0;
+    }
+    33%{
+        left: 0;
+    }
+    40%{
+        left: -100%;
+    }
+    73%{
+        left: -100%;
+    }
+    80%{
+        left: -200%;
+    }
+    100%{
+        left: -200%;
+    }
+}
+.card{
+    height: 335px;
+    width: 93vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 12px; 
+    overflow: hidden;
+}
+.card .deepak{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card .deepak .deep{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.santosh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 187px;
+    width: 180px;  
+    margin: 43px 3px;
+    transition: 0.5s;
+}
+.santosh:hover{
+    transform: scale(1.3);
+}
+
+.card2{
+    height: 264px;
+    width: 93vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 12px;
+    overflow: hidden;
+}
+.beauty{
+    display: flex;
+    flex-direction: column;
+}
+.toy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+.san{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 187px;
+    width: 180px;  
+    margin: 3px 3px;
+    transition: 0.5s;
+}
+.san:hover{
+    transform: scale(1.3);
+}
+.toy img,.santosh img{
+    height: 97px;
+    align-items: center;
+}
+
+.toy .san p,.santosh p{
+    text-align: center; 
+    margin-top: 12px;
+}
+.toy .san h3,.deep .santosh h3{
+    color: green;
+}
+h2{
+    padding: 12px 23px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.button p{
+    margin-top: 14px;
+margin-right: 33px;
+background-color: var(--deep);
+color: white;
+border-radius: 9px;
+padding: 4px 8px;
+cursor: pointer;
+transition: 0.5s ease;
+}
+.button p:hover{
+    transform: scale(1.3);
+     background-color: white;
+     color: var(--deep);
+}
+footer{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--deep) ;
+    color: white;
+    /* position: sticky;
+    bottom: 0;
+     */
+}
